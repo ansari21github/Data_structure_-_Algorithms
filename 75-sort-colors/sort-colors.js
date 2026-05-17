@@ -3,6 +3,7 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 var sortColors = function(nums) {
+    //Dutch Nationl flag algorithm
     let left = 0;
     let mid = 0;
     let right = nums.length-1;
