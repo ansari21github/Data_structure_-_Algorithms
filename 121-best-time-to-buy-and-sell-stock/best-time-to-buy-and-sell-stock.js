@@ -13,4 +13,5 @@ var maxProfit = function(prices) {
         mini = Math.min(mini,prices[i]); 
     }
     return max;
+    // dp becoz remambring the past.
 };
